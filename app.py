@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets import load_iris
 
-st.set_page_config(page_title="K-Means Clustering", page_icon="🌸", layout="wide")
-st.title("🌸 K-Means Clustering using Iris Dataset")
+st.set_page_config(page_title="K-Means Clustering", page_icon=" 📋 ", layout="wide")
+st.title(" 📋  K-Means Clustering using Iris Dataset")
 
 iris=load_iris()
 df=pd.DataFrame(iris.data,columns=iris.feature_names)
